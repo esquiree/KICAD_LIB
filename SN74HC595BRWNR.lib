@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SN74HC595BRWNR
+#
+DEF SN74HC595BRWNR U 0 40 Y Y 1 L N
+F0 "U" -401 841 50 H V L BNN
+F1 "SN74HC595BRWNR" -401 -959 50 H V L BNN
+F2 "QFN40P250X250X50-17N" 0 0 50 H I L BNN
+F3 "296-44070-1-ND" 0 0 50 H I L BNN
+F4 "https://www.digikey.com/product-detail/en/texas-instruments/SN74HC595BRWNR/296-44070-1-ND/5985446?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F5 "XFQFN-16 Texas Instruments" 0 0 50 H I L BNN
+F6 "Texas Instruments" 0 0 50 H I L BNN
+F7 "SN74HC595BRWNR" 0 0 50 H I L BNN
+F8 "8-Bit Shift Registers With 3-State Output 16-X1QFN -55 to 125" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 800 400 800 N
+P 2 0 0 16 400 800 400 -800 N
+P 2 0 0 16 400 -800 -400 -800 N
+P 2 0 0 16 -400 -800 -400 800 N
+X RCLK 12 -600 200 200 R 40 40 0 0 I C
+X SER 14 -600 100 200 R 40 40 0 0 I 
+X SRCLK 11 -600 0 200 R 40 40 0 0 I C
+X ~SRCLR~ 10 -600 -100 200 R 40 40 0 0 I 
+X VCC 16 600 700 200 L 40 40 0 0 W 
+X ~OE~ 13 -600 -200 200 R 40 40 0 0 I 
+X QA 15 600 400 200 L 40 40 0 0 O 
+X QB 1 600 300 200 L 40 40 0 0 O 
+X QC 2 600 200 200 L 40 40 0 0 O 
+X QD 3 600 100 200 L 40 40 0 0 O 
+X QE 4 600 0 200 L 40 40 0 0 O 
+X QF 5 600 -100 200 L 40 40 0 0 O 
+X QG 6 600 -200 200 L 40 40 0 0 O 
+X QH1 7 600 -300 200 L 40 40 0 0 O 
+X QH2 9 600 -400 200 L 40 40 0 0 O 
+X GND 8 600 -700 200 L 40 40 0 0 W 
+X EP 17 600 -600 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
