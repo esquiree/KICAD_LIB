@@ -1,0 +1,14 @@
+(module LOGO (layer F.Cu)
+  (at 0 0)
+ (fp_text reference "G***" (at 0 0) (layer F.SilkS) hide
+  (effects (font (thickness 0.3)))
+  )
+  (fp_text value "LOGO" (at 0.75 0) (layer F.SilkS) hide
+  (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy -1.487714 -0.024190) (xy -3.005630 -0.024190) (xy -1.493762 1.487714) (xy 0.018107 2.999619) (xy 1.520958 1.496804) (xy 3.023810 -0.006011) (xy 3.023810 3.023810) (xy -3.023809 3.023810)
+     (xy -3.023809 -3.023809) (xy -1.487714 -3.023809) (xy -1.487714 -0.024190) )(layer F.SilkS) (width  0.010000)
+  )
+  (fp_poly (pts (xy 3.023810 -0.024190) (xy 1.524000 -0.024190) (xy 1.524000 -3.023809) (xy 3.023810 -3.023809) (xy 3.023810 -0.024190) )(layer F.SilkS) (width  0.010000)
+  )
+)
